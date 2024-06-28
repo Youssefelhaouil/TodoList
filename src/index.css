@@ -1,0 +1,95 @@
+.todolist-container{
+    background-color: rgb(189, 186, 186);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.364);
+    margin-top: 100px;
+    text-align: center;
+    margin: 100px 100px;
+    border-radius: 20px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.first{
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+.first span{
+    color: rgb(147, 39, 220);
+}
+.todo-input{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.todo-input input{
+    width:90% ;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    margin-left:20px ;
+    text-align: center;
+    color: rgb(147, 39, 220);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+.todo-input button{
+    width:30% ;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    margin-right:20px ;
+    font-weight: bold;
+    text-align: center;
+    color:white ;
+    background-color: rgb(147, 39, 220);
+    cursor: pointer;
+}
+.todo-input button:hover{
+    background-color: rgba(171, 76, 234, 0.949);
+}
+.task{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    place-content: center;
+    gap: 10px;
+    color: white;
+    height: 35px;
+    background-color:rgb(161, 159, 162);
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.task .move-button{
+    background-color: rgb(67, 228, 123);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    height: 25px ;
+    margin-right: 10px ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.task .move-button:hover{
+    background-color: rgb(106, 249, 156);
+
+
+}
+
+.task .delete-task{
+    background-color: rgb(228, 67, 67);
+    color: white;
+    font-weight: bold;
+    border: 0;
+    height: 25px ;
+    margin-left: 10px ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.task .delete-task:hover{
+    background-color: rgb(245, 88, 88);
+
+
+}
